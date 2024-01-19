@@ -1,0 +1,152 @@
+body {
+    background: #FFF;
+}
+
+
+#img_container {
+    width: 50%;
+    height: 900px;
+    background-repeat:  no-repeat !important    ;
+    background-size: contain;
+    border-radius: 45px 0px 0px 45px;
+    background: url("login_image.png");
+    height: auto;
+    flex-shrink: 0;
+}
+
+#main_container {
+    display: flex;
+    margin: auto;
+    height: 920px;
+}
+
+#login_main_container {
+    margin: auto;
+}
+
+#login_container {
+    display: inline-flex;
+    width: 400px;
+    height: 583px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+#label_welcome_back {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+#label_enter_credentials {
+    color: #000;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#input_email {
+    display: flex;
+    width: 404px;
+    height: 32px;
+    font-size: 16px;
+    padding: 10px 0px 10px 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#span_password {
+    align-items: end;
+    float: right;
+    margin-bottom: 4px;
+}
+
+#label_forget_password {
+    color: var(--action-sec, #0C2A92);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#input_password {
+    display: block;
+    width: 404px;
+    height: 32px;
+    font-size: 16px;
+    padding: 10px 0px 10px 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+}
+
+#span_rmember_me{
+    
+}
+
+#check_remember_me {
+    width: 12px;
+    height: 12.956px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #000;
+}
+
+#label_remember_me {
+    color: #000;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#btn_login {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3A5B22;
+    color: #FFFFFF;
+    width: 100%;
+    border-radius: 10px;
+    height: 35.4px;
+    flex-shrink: 0;
+}
+
+#label_have_account {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#label_sign {
+    color: #0F3DDE;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

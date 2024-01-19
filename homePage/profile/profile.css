@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white */
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #fff; /* Set text color to white */
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+p {
+    line-height: 1.5;
+    color: #fff; /* Set text color to white */
+}
+
+@font-face {
+    font-family: satisfy;
+    src: url(../webfonts/satisfy.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
